@@ -2,31 +2,370 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 12%
+    right: 74%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 66%
+    right: 7%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
 .banner-principal .tarjeta
   background-position: left 50% !important
-
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
+  width: 500px !important
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: black !important
 .banner-interno__titulo__icono i
   color: $color-primario
-
+.barra-avance__boton--regresar span
+  color: $white !important
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    min-height: auto
+    @media (max-width: $bp-max-md)
+      background-size: contain
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-size: cover
+      min-height: 550px
+      background-color: #69D7E5
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 figcaption
   font-weight: normal
+//- Modulo cajones
+.cajon.C01
+  background-color: #D5F4F8
+.cajon.C02
+  background-color: #CFE8FF
+.cajon.C03
+  background-color: #FFF7DF
+.cajon.C04
+  background-color: #FFE79E 
+.cajon.C05
+  background-color: #A4E7F0
+.cajon.C06
+  background-color: #F1E6EF
+.cajon.C07
+  background-color: #9ED1FF
+.cajon.C08
+  background-color: #110628
+  p 
+    color: $white
+.cajon.C09
+  background-color: #fff
+.cajon.C10
+  background-color: #F3F9FF
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #CFE8FF
+  &:nth-child(even)
+    background-color: #D5F4F8
+.tarjeta--C01
+  background-color: #CFE8FF
+.tarjeta--C02
+  background-color: #A4E7F0
+.tarjeta--C03
+  background-color: #F1E6EF
+.tarjeta--C04
+  background-color: #69D7E5
+.tarjeta--C05
+  background-color: #9ED1FF
+.tarjeta--C06
+  background-color: #FFE79E 
+.tarjeta--C07
+  background-color: #D5F4F8
+.tarjeta--C08
+  background-color: #FFF7DF
+.tarjeta--C09
+  background-color: #CFE8FF
+.tarjeta--C10
+  background-color: #FFFDC8
+.tarjeta-numerada__numero
+  background-color: #FFB851
+.tarjeta--C11
+  background-color: #FFF0C3
+.tarjeta--C12
+  background-color: #FFD453
+.C01
+  color: #FFB851
+.BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -6.2rem !important
+.BG02
+  background-image: url("../assets/curso/BG02.png")
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
+//- Modulo slyders
+.tarjeta--slyder
+  height: 100%
+  background-color: white
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #AE0000
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #AE0000
+  color: #fff
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #AE0000
+  color: #FFFF
+  border: none
+  opacity: 100
+  // background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #AE0000
+  color: #FFFF
+  border: none
+  opacity: 100
+  // background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
+.slyder-a__bullets__item
+  background-color: #AE0000
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #1E535A
+  border: none
+//- Modulo medidas imagenes
+.img75
+  width: 75px 
+.img80
+  width: 80px 
+.img85
+  width: 85px 
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img120
+  width: 120px
+.img130
+  width: 130px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img280
+  width: 280px
+.img310
+  width: 310px
+.img400
+  width: 400px
+//- Modulo tablas
+.table
+  width: 100%
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #FFF7DF
+.tabla-a.color-acento-contenido
+  td
+    text-align: left
+.tabla-a.color-primario
+  th
+    background-color: #FFF6E2
+  td
+    text-align: left
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+  padding: 0.75rem
+  text-align: left
+  vertical-align: top
+  word-break: break-word
+  hyphens: auto
+  white-space: nowrap
+  padding: 0.75rem
+  text-align: center
+.tabla-a.responsive table
+  min-width: 970px
+  border-collapse: collapse
+.tabla-a.responsive th, .tabla-a.responsive td
+  white-space: nowrap
+  padding: 0.75rem
+  text-align: center
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
+// Contenedor de tarjeta (recomendado)
+.card-custom
+  display: flex
+  flex-direction: column
+  height: 100%
+  border-radius: 15px // Redondeo general de la tarjeta
+  overflow: hidden    // Crucial: recorta la imagen y el fondo para que respeten el borde
+  figure
+    margin: 0
+    img
+      width: 100%
+      display: block
+.bg
+  &-c1
+    background-color: #FFE79E
+    height: 100%
+    display: flex
+    flex-direction: column // Asegura que el contenido fluya hacia abajo
+    justify-content: center // Centra el texto verticalmente
+    padding: 1.5rem
+    transition: all 0.5s ease
+  
+  h5
+    margin-bottom: 0.5rem
+  p
+    margin-bottom: 0
+  // Ajustes responsive de texto
+  @media screen and (max-width: $bp-max-xl)
+    p
+      font-size: 0.95em
+  @media screen and (max-width: $bp-max-lg)
+    p
+      font-size: 0.9em
+  @media screen and (max-width: $bp-max-md)
+    p
+      font-size: 0.9em
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
+  li
+    .lista-ol--cuadro__vineta
+      span.text-bold
+        color: $black
+.lista-ul--color li > i:first-of-type
+  color: #FFB851
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #DFEFFF
+  .acordion__accion__btn--b
+    background-color: #9C2424  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #9C2424
+    border: none
+    color: #ffffff
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, 
+  background-color: #AE0000
+  border: none
+  color: #fff
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #CFE8FF !important 
+    .tarjeta.tarjeta--gris
+      background-color: #6CB9FF
+      span
+        color: $black
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    span
+      color: #000 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F1E6EF
+.tarjeta.tarjeta--gris
+  background-color: #AE0000
+.linea-tiempo-d__item__number
+  span
+    color: #fff
+///////// Card hover x 3 tarjetas--------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #F1E6EF
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0.12rem 
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #F1E6EF
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em      
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
