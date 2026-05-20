@@ -55,7 +55,7 @@
         figure
           img(src='@/assets/curso/tema2/img06.svg', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
-        .cajon.cajon.C02.color-secundario.p-4.mb-3
+        .cajon.cajon.C01.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") En una red sin DHCP, cada dispositivo debe configurarse manualmente con una dirección IP, la máscara de subred, la puerta de enlace predeterminada y los servidores DNS. Este proceso puede resultar complejo, propenso a errores y difícil de administrar cuando existen muchos equipos. Con DHCP, esta configuración se realiza de forma automática mediante un servidor que gestiona y distribuye los parámetros de red a los dispositivos clientes.
         p.mb-0(data-aos="fade-down") Cuando un equipo se conecta a la red, envía una solicitud para obtener una configuración IP válida. El servidor DHCP recibe esta solicitud y responde asignando una dirección IP disponible junto con otros parámetros necesarios para que el dispositivo pueda comunicarse con el resto de la red y acceder a recursos externos.
     p.mb-4(data-aos="fade-down") El proceso de asignación de direcciones IP mediante DHCP se realiza generalmente en cuatro etapas:

@@ -18,8 +18,9 @@
               img(src='@/assets/curso/tema3/img02.svg', alt='Imagen decorativa')
           .col-lg-10.col-12
             p.mb-0 En los entornos empresariales y educativos, estos servicios son fundamentales para garantizar la disponibilidad de la información, la gestión remota de equipos y el intercambio eficiente de datos. Además, contribuyen a optimizar la administración de infraestructuras tecnológicas, ya que permiten realizar tareas de mantenimiento, soporte técnico y gestión de archivos sin necesidad de acceso físico a los equipos.
-        .cajon.cajon.C01.color-primario.px-4.py-3.mb-0
-          p.mb-0(data-aos="fade-down") Entre los principales servicios utilizados para estas funciones se encuentran RDP, que permite el acceso remoto a sistemas; FTP, que facilita la transferencia de archivos entre dispositivos; y los servidores <em>web</em>, que permiten alojar, gestionar y distribuir contenido accesible a través de Internet o redes internas.
+        .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
+          p.mb-0(data-aos="fade-down") Entre los principales servicios utilizados para estas funciones se encuentran <b>RDP</b>, que permite el acceso remoto a sistemas; <b>FTP</b>, que facilita la transferencia de archivos entre dispositivos; y los <b>servidores <em>web</em></b>, que permiten alojar, gestionar y distribuir contenido accesible a través de Internet o redes internas.
+    p.mb-0(data-aos="fade-down") Estos servicios forman parte esencial de la administración de redes y servidores, ya que garantizan el acceso controlado a los recursos informáticos, la disponibilidad de la información y la correcta operación de los sistemas dentro de una infraestructura tecnológica.
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 RDP (Remote Desktop Protocol)
