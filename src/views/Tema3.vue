@@ -45,7 +45,7 @@
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/tema3/img05.svg' alt='AvatarTop')
           h4.text-center Administración de servidores
-          p facilitando la configuración, instalación de <em>software</em> y mantenimiento de equipos ubicados en centros de datos o en otras ubicaciones.
+          p Facilitando la configuración, instalación de <em>software</em> y mantenimiento de equipos ubicados en centros de datos o en otras ubicaciones.
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
