@@ -76,7 +76,7 @@
           img(src='@/assets/curso/tema4/img06.jpg', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.p-4.mb-3
-          p.mb-0(data-aos="fade-down") La Voz sobre IP (VoIP) es una tecnología que permite realizar llamadas de voz utilizando redes de datos basadas en el protocolo IP, como Internet o redes corporativas. A diferencia de la telefonía tradicional, que utiliza redes telefónicas conmutadas, VoIP convierte la voz en paquetes de datos digitales que se transmiten a través de la red
+          p.mb-0(data-aos="fade-down") La Voz sobre IP (VoIP) es una tecnología que permite realizar llamadas de voz utilizando redes de datos basadas en el protocolo IP, como Internet o redes corporativas. A diferencia de la telefonía tradicional, que utiliza redes telefónicas conmutadas, VoIP convierte la voz en paquetes de datos digitales que se transmiten a través de la red.
         p.mb-3(data-aos="fade-down") Este servicio permite que la comunicación de voz se integre con la infraestructura informática existente, lo que facilita la reducción de costos, la flexibilidad en la comunicación y la integración con otros sistemas digitales.
         p.mb-0(data-aos="fade-down") Gracias a estas características, VoIP es ampliamente utilizada en empresas, instituciones educativas y organizaciones que requieren sistemas de comunicación eficientes y escalables.
     .row.justify-content-center.align-items-center.mb-4

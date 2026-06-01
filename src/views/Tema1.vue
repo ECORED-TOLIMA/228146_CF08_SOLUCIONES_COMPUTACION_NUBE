@@ -59,27 +59,27 @@
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema1/img07.svg", alt="Imagen decorativa").img100.m-auto
-                  p Servicios de configuración automática de red
+                  p Servicios de configuración automática de red.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img100.m-auto
-                  p Servicios de resolución de nombres
+                  p Servicios de resolución de nombres.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema1/img09.svg", alt="Imagen decorativa").img100.m-auto
-                  p  Servicios de transferencia de archivos
+                  p  Servicios de transferencia de archivos.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema1/img10.svg", alt="Imagen decorativa").img100.m-auto
-                  p Servicios de alojamiento <em>web</em> y aplicaciones
+                  p Servicios de alojamiento <em>web</em> y aplicaciones.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema1/img11.svg", alt="Imagen decorativa").img100.m-auto
-                  p Servicios de acceso remoto
+                  p Servicios de acceso remoto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
